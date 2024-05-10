@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DoDay</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="id">Id</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="task_id">Task id</string>
+    <string name="task_name">Task Title</string>
+    <string name="task_description">Description</string>
+    <string name="task_dateOption">Do not put a date</string>
+    <string name="add">Add a task</string>
+    <string name="todo">TO DO</string>
+    <string name="late">Overdue tasks</string>
+    <string name="done">Completed Tasks</string>
+    <string name="back">Back</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
