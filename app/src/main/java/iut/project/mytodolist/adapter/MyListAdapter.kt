@@ -75,7 +75,7 @@ class MyListAdapter(
         )
         val konffeti = mainActivity.findViewById<KonfettiView>(R.id.konfettiView)
 
-        // Ajout d'un ecouteur sur la checkbox
+
         checkBox!!.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
                 taskDone[position] = 1
@@ -108,7 +108,7 @@ class MyListAdapter(
             title.text = mainActivity.formatDate(taskDate[position])
         }
 
-        // Si le titre de la tache précédente est différent du titre de la tache actuelle, on affiche le titre
+
         if (position > 0) {
             if (taskDate[position - 1] != taskDate[position]) {
                 title.visibility = View.VISIBLE
@@ -122,7 +122,7 @@ class MyListAdapter(
         descriptionText.text = "${taskDescription[position]}"
         dateText.text = "Date: ${taskDate[position]}"
 
-        // Liste qui contient l'id, le nom, la description et la date de la tâche
+
         val taskList = listOf(
             taskId[position],
             taskName[position],
